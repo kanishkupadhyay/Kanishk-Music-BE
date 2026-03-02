@@ -1,0 +1,22 @@
+{
+//   "target": "ES2022",
+//   "module": "CommonJS",
+//   "strict": true,
+//   "esModuleInterop": true,
+//   "forceConsistentCasingInFileNames": true,
+//   "allowImportingTsExtensions": false,
+//   "skipLibCheck": true,
+//   "compilerOptions": {
+//     "typeRoots": ["./node_modules/@types", "./src/types"]
+//   },
+   "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "include": ["src/**/*"]
+}
